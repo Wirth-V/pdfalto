@@ -75,7 +75,6 @@ set ( ICUDATA_LIB ${CMAKE_CURRENT_SOURCE_DIR}/libs/icu/${OSSUFFIX}/${ARCHSUFFIX}
 
 set(XPDF_BUILD_DIR ${XPDF_SUBDIR}/build)
 
-add_subdirectory(${XPDF_SUBDIR})
 
 set(SOURCE_FILES
         src/AnnotsXrce.cc
